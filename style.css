@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(133,85,195);
+    background: linear-gradient(90deg, rgba(133,85,195,1) 0%, rgba(100,90,225,1) 48%, rgba(131,86,199,1) 100%, rgba(131,86,199,1) 100%);;
+}
+
+main{
+    padding-top: 100px;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    height: 70vh;
+    width: 60vw;
+    background-color: rgba(121,124,237,255);
+    color: #FFF;
+    border-radius: 20px;
+}
+
+.container_juego{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.opciones{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.botones{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    padding: 0 20px;
+}
+
+button{
+    font-size: 2em;
+    border: 0;
+    color: #FFF;
+    background-color: rgba(161,166,232,255);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.botones button:hover{
+    opacity: 0.5;
+}
+
+.aciertos{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 20px 0;
+    height: 25%;
+    width: 80%;
+    border: 1px solid;
+    font-size: 24px;
+}
+
+.tiempo{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 25%;
+    width: 80%;
+    border: 1px solid;
+    font-size: 24px;
+}
+
+.movimientos{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 20px 0;
+    height: 25%;
+    width: 80%;
+    border: 1px solid;
+    font-size: 24px;
+}
+
+.reiniciar{
+    width: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.reiniciar:hover{
+    background-color: #FFF;
+    color:  rgba(161,166,232,255);
+    transform: scale(1.1);
+}
